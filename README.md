@@ -15,5 +15,7 @@ Our results differ for some rows in tables 1, 2, and 3. These differences are re
 ## Machine/Software Information
 
 Arch linux (kernel 4.17.4-1-ARCH)
+
 CPU: Intel Core i7-6900K
+
 Octave 4.4.0
