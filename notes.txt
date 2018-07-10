@@ -1,0 +1,6 @@
+1:25:22 -> Completed implementation of Example 2 producing Tables 1 2 and 3. Our code reproduces all numbers except the least significant 2-3 digits for some of the table entries.
+2:40:00 -> Completed Example 1.
+
+Example 1 is very similar except that m, R, and d differ from the reported values. Based on plotting of the function which calculates R, it seems to me that the numbers reporter are a mistake and the numbers we calculated are actually correct. The correct numbers do not change the conclusions of the paper, and indeed we get the same numbers after iterating example 1 to a complete solution.
+
+Example 2 is identical except a few of the numbers differ on the least significant 2-3 digits.
