@@ -1,6 +1,6 @@
 # A modification of Newton's method for nondifferentiable equations
 
-This is an implementation of the techniques presented in [A modification of Newton's method for nondifferntiable equations](https://doi.org/10.1016/S0377-0427(03)00650-2)
+This is an implementation of the techniques presented in [A modification of Newton's method for nondifferentiable equations](https://doi.org/10.1016/S0377-0427(03)00650-2)
 
 The code for example 1 is contained in `example1.m`, and can be executed directly as `octave example1.m`.
 
