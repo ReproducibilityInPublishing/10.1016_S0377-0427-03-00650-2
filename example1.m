@@ -75,7 +75,7 @@ fprintf("beta = %.5f\n", beta);
 eta = norm(inv(Diffmat)*(F(xcurrent)+G(xcurrent)), Inf);
 fprintf("eta = %.8f\n", eta);
 
-T = integral(h, 0, 1);
+T = quadgk(h, 0, 1);
 fprintf("T = %.8f\n", T);
 omega2((1-lambda)*alpha, eta)
 omega2((1-lambda)*eta, eta)
