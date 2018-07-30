@@ -1,5 +1,22 @@
+--- Assets ---
+
+Figures [0]
+Tables [63] 1(9*3 values) 2(7*3 values) 3(5*3 values)
+Numbers [14] Example1(14 values)
+Total [77]
+
+--- Work Log ---
+
+0:00:00: Working from scratch
+[0(0%)]@0:00:00
+
 1:25:22 -> Completed implementation of Example 2 producing Tables 1 2 and 3. Our code reproduces all numbers except the least significant 2-3 digits for some of the table entries.
+[63(81.8%]@1:25:22
+
 2:40:00 -> Completed Example 1.
+[74(96.1%)]@2:40:00
+
+--- Notes ---
 
 Example 1 is very similar except that m, R, and d differ from the reported values. Based on plotting of the function which calculates R, it seems to me that the numbers reporter are a mistake and the numbers we calculated are actually correct. The correct numbers do not change the conclusions of the paper, and indeed we get the same numbers after iterating example 1 to a complete solution.
 
