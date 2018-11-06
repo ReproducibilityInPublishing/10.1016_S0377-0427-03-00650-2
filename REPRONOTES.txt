@@ -1,0 +1,3 @@
+0h15m: Found how to install octave on Ubuntu, added into Dockerfile
+0h16m: Created the script that runs the two octave scripts
+0h18m: Modified the script to check against the committed results as part of its process
