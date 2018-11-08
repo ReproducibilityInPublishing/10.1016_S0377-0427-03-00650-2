@@ -1,8 +1,8 @@
 sudo: true
 
 install:
-	sudo apt-get -y update
-	sudo apt-get -y install octave
+  - sudo apt-get -y update
+  - sudo apt-get -y install octave
 
 script:
-	bash run_experiments.sh
+  - bash run_experiments.sh
