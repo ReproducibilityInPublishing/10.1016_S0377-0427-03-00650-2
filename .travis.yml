@@ -1,5 +1,7 @@
 sudo: true
 
+dist: xenial
+
 install:
   - sudo apt-get -y update
   - sudo apt-get -y install octave
