@@ -91,6 +91,7 @@ def check_differences(expected_values, computed_values):
         if float(abs(computed_values[key] - expected_values[key])) / expected_values[key] > 0.1:
             print 'DIFFERENCE IN ' + key
             passing = False
+    return passing
 
 def main(args):
     expected_results_file = args[1] # File with expected results
