@@ -1,6 +1,6 @@
 sudo: true
 
-dist: xenial
+#dist: xenial
 
 install:
   - sudo apt-get -y update
