@@ -25,8 +25,12 @@ def parse_table(f, table_key, num, values):
 def parse_file(f):
     values = {}
 
-    # z2
+    # z2 / Check for octave header
     z2_line = f.readline()
+    if z2_line[0:3] == "GNU":
+        num_skip = 16
+        for i in range(0, num_skip):
+            z2_line = f.readline()
     parse_tuple(z2_line, 'z2', values)
 
     # z3
@@ -73,7 +77,11 @@ def parse_file(f):
     x_line = f.readline()
     parse_tuple(x_line, 'x*', values)
 
-    f.readline()    # Skip Table 1
+    skip_line = f.readline()    # Skip Table 1 / check for octave header
+    if skip_line[0:3] == "GNU":
+        num_skip = 16
+        for i in range(0, num_skip):
+            f.readline()
     parse_table(f, 'Table_1', 9, values)
 
     f.readline()    # Skip Table 2
