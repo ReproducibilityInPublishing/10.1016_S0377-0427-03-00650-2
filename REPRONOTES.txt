@@ -1,3 +1,10 @@
 0h15m: Found how to install octave on Ubuntu, added into Dockerfile
 0h16m: Created the script that runs the two octave scripts
 0h18m: Modified the script to check against the committed results as part of its process
+0h44m: Added script that more smartly checks results (within 10% range), for sake of builds happening in other distributions/versions of octave, like on Travis
+
+Default Travis build (not specifying distribution) results in slightly different numbers in last digits; also puts in different whitespacing
+- Expected vs Actual
+- R = 0.00837733 vs R = 0.00837735
+- d = 0.41411889 vs d = 0.41411902
+- ans = 0.22222 vs ans =    0.22222
