@@ -1,7 +1,6 @@
 #!/bin/bash
 
-octave example1.m > computed_results.txt
-octave tables.m >> computed_results.txt
+./computation.sh
 
 echo "CHECKING DIFFERENCES BETWEEN EXPECTED AND COMPUTED"
-python check_results.py results.txt computed_results.txt
+python check_results.py expected_results.txt computed_results.txt
