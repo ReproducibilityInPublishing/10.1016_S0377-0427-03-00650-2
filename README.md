@@ -1,21 +1,47 @@
 # A modification of Newton's method for nondifferentiable equations
 
-This is an implementation of the techniques presented in [A modification of Newton's method for nondifferentiable equations](https://doi.org/10.1016/S0377-0427(03)00650-2)
+"A modification of Newton's method for nondifferentiable equations" is an implementation of the techniques presented in
+[A modification of Newton's method for nondifferentiable equations](https://doi.org/10.1016/S0377-0427(03)00650-2)
 
-The code for example 1 is contained in `example1.m`, and can be executed directly as `octave example1.m`.
+## Build Instructions
 
-The code for example 2 is contained in `example2.m`, and is executed through the `tables.m` script which can be executed directly as `octave tables.m`.
+### Requirements
+Instructions were tested using Docker version 18.06.0-ce, build 0ffa825, on Ubuntu 16.04.5 LTS.
 
-## Differences from the article
+### Building with Docker
+    docker build -t ${DOCKER_IMAGE_NAME} .
 
-Our results differ from the article in Example 1 with differing m, R and d. The results of the article are unchanged, however our values for m, R, and d are correct. Other results from Example 1 are identical to those reported in the article.
+## Run Instructions
 
-Our results differ for some rows in tables 1, 2, and 3. These differences are restricted to the last 2-3 significant digits. We do not think these are important differences.
+### Running with Docker
+To start a container for the Docker image:
 
-## Machine/Software Information
+    docker run -it --rm -v $(pwd):/Scratch ${DOCKER_IMAGE_NAME}
 
-Arch linux (kernel 4.17.4-1-ARCH)
+#### Run Everything
+Within the Docker container, to run everything, computational scripts for
+experiments and visualization scripts, run
 
-CPU: Intel Core i7-6900K
+    ./run.sh
 
-Octave 4.4.0
+Please be aware of computational efforts for the scripts, see...
+
+See sections below provide for details about the individual steps.
+
+#### Running Computational Scripts
+Within the Docker container, run
+
+    ./computation.sh
+
+Output will be `computed_results.txt`.
+
+Expected results is `expected_results.txt'.
+
+## Reproduction Notes
+We kept track of our progress and issues inside `notes.txt`. We also have an
+jupyter notebook showing this progress over time `ReproducibilityPlot.ipynb`.
+
+## Acknowledgements
+We want acknowledge the authors for their fine work on this experiment. We
+succeeded with this project where many others had failed. The authors should be
+commended on putting together high quality work.
