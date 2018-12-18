@@ -5,4 +5,4 @@ We ran experiments on an Intel(R) Xeon(R) CPU E3-1240 V2 @ 3.40GHz.
 ## Computational Experiments
 
 Script `computation.sh` run experiments and generates results for file `computed_results.txt`.
-* computation.sh: < 1 minute with 8 cores.
+* `computation.sh`: < 1 minute with 8 cores.
