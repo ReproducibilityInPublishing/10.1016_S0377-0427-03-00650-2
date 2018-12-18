@@ -37,6 +37,11 @@ Output will be `computed_results.txt`.
 
 Expected results is `expected_results.txt'.
 
+To automatically check the `computed_results.txt` against `expected_results.txt`, run
+    python check_results.py expected_results.txt computed_results.txt
+
+This step is included in the `run.sh` script.
+
 ## Reproduction Notes
 We kept track of our progress and issues inside `notes.txt`. We also have an
 jupyter notebook showing this progress over time `ReproducibilityPlot.ipynb`.
