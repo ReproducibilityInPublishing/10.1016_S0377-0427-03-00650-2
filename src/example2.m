@@ -1,8 +1,4 @@
-function [ xout, err ] = example2(lambda)
-
-pF = @(x) E2F(x);
-pDF = @(x) E2DF(x);
-pG = @(x) E2G(x);
+function [ xout, err ] = example2(lambda, pF, pDF, pG)
 
 xm = [5;5];
 x0 = [1;0];

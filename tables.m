@@ -1,4 +1,4 @@
-format short g
+function tables()
 
 [ x1, err1 ] = example2(0);
 
@@ -19,4 +19,6 @@ end
 fprintf("Table 3\n");
 for n = 1:numel(err3)
 	fprintf("n: %i x(1)n: %.16f x(2)n: %.16f err: %e\n", n, x3(n,1), x3(n,2), err3(n));
+end
+
 end
