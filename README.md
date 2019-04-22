@@ -1,7 +1,7 @@
 # A modification of Newton's method for nondifferentiable equations
 
-[![Build Status](https://travis-ci.org/krafczyk/10.1016_S0377-0427-03-00650-2.svg?branch=master)](https://travis-ci.org/krafczyk/10.1016_S0377-0427-03-00650-2)
-[![codecov](https://codecov.io/gh/krafczyk/10.1016_S0377-0427-03-00650-2/branch/master/graph/badge.svg)](https://codecov.io/gh/krafczyk/10.1016_S0377-0427-03-00650-2)
+[![Build Status](https://travis-ci.org/ReproducibilityInPublishing/10.1016_S0377-0427-03-00650-2.svg?branch=master)](https://travis-ci.org/ReproducibilityInPublishing/10.1016_S0377-0427-03-00650-2)
+[![codecov](https://codecov.io/gh/ReproducibilityInPublishing/10.1016_S0377-0427-03-00650-2/branch/master/graph/badge.svg)](https://codecov.io/gh/ReproducibilityInPublishing/10.1016_S0377-0427-03-00650-2)
 
 "A modification of Newton's method for nondifferentiable equations" is an implementation of the techniques presented in
 [A modification of Newton's method for nondifferentiable equations](https://doi.org/10.1016/S0377-0427(03)00650-2)
