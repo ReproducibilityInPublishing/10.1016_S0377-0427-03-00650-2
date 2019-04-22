@@ -7,7 +7,7 @@ install:
   - sudo apt-get -y install octave
   - sudo apt-get -y install git
   - git clone https://github.com/MOcov/MOcov.git
-  - cd MOcov && make install
+  - cd MOcov && make install && cd ..
 
 script:
   - bash run.sh
