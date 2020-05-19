@@ -3,6 +3,10 @@
 [![Build Status](https://travis-ci.org/ReproducibilityInPublishing/10.1016_S0377-0427-03-00650-2.svg?branch=master)](https://travis-ci.org/ReproducibilityInPublishing/10.1016_S0377-0427-03-00650-2)
 [![codecov](https://codecov.io/gh/ReproducibilityInPublishing/10.1016_S0377-0427-03-00650-2/branch/master/graph/badge.svg)](https://codecov.io/gh/ReproducibilityInPublishing/10.1016_S0377-0427-03-00650-2)
 
+This is a Reproduction Package as described in the manuscript "Three Empirical Principles for Computational Reproducibility and their Implementation: *The Reproduction Package*" by M. S. Krafczyk, A. Shi, A. Bhaskar, D. Marinov, & V. Stodden.
+
+This Reproduction Package does not contain the `run_all.sh` script because all computations run extremely quickly, and there is no need to run a reduced set of experiments.
+
 "A modification of Newton's method for nondifferentiable equations" is an implementation of the techniques presented in
 [A modification of Newton's method for nondifferentiable equations](https://doi.org/10.1016/S0377-0427(03)00650-2)
 
